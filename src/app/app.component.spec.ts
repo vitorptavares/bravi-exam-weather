@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'bravi-exam-weather'`, () => {
+  it(`should have as title 'bravi-exam-wheather'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('bravi-exam-weather');
+    expect(app.title).toEqual('bravi-exam-wheather');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('bravi-exam-weather app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('bravi-exam-wheather app is running!');
   });
 });

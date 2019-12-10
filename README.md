@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BraviExamWeather
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# bravi-exam-weather
+This project is part of bravi exam
+>>>>>>> f2293d21569a4084e87d6199208d52a02ea37933
