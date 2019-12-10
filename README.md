@@ -1,32 +1,15 @@
-<<<<<<< HEAD
+
 # BraviExamWeather
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+Welcome to Bravi Exam Responses.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+exercice 3. bravi-exam-weather app
 
-## Code scaffolding
+This exercice was done using docker container. To download and RUN, execute commands one and two:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+docker pull vitortavares/bravi-exam-weather:v1
 
-## Build
+docker run --rm -d -p 80:80 vitortavares/bravi-exam-weather:v1
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
-# bravi-exam-weather
-This project is part of bravi exam
->>>>>>> f2293d21569a4084e87d6199208d52a02ea37933
+Use address localhost:80 to access bravi-exam-weather application. Type city + comma + country code and click "Consultar" to get weather . Ex: São Paulo,BR
